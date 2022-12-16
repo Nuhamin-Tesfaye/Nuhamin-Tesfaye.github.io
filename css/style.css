@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    color: crimson;
+    font:18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color:crimson;
+    margin:25px 15px;
+    text-decoration: none;
+}
+
+.container{
+    background-color:floralwhite;
+    margin: 2rem auto;
+    max-width: 70rem;
+    width:100%;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#my-logo{
+    margin-left:1rem;
+   
+    
+}
+
+.header-nav-list{
+    display: flex;
+}
+
+.header-nav-listItem{
+    list-style-type:none;
+    margin: 1rem;
+    font-size: 18px;
+    
+}
+
+.header-nav-listItem:hover{
+    background-color:gray;
+    border: 5px solid crimson; 
+    transition:.5s;
+
+}
+
+.about-container{
+    display:flex;
+     justify-content: space-between;
+}
+
+.about-me{
+    font-size: 16px;
+    margin: 15px;
+    word-spacing:2px ;
+}
+
+.about-sub-container{
+    display:flex;
+    margin-top: 115px;
+    margin-left: 20px;
+
+}
+.skill-list-item{
+    margin-top: 20px;
+}
+
+.contact-me-link{
+    margin-top: 20px;
+}
+.about-image{
+    height: 600px;
+    width: 80%;
+}
+
+.about-col-container1{
+    width: 50%;
+}
+.about-col-container2{
+    width: 50%;
+}
+
+.contact-me{
+    margin-left: 60px;
+}
+
+.project-title{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+
+.project-column-title{
+    text-align: center;
+}
+
+.project-column-image{
+    height:400px;
+    width: 90%;
+}
+
+.project-column-link{
+    text-align: center;
+}
+
+.description-of-projects{
+padding: 10px;
+font-size: 18px;
+
+}
+
+.footer{
+    margin: 40px;
+    text-align: center;
+    
+}
+@media only screen and (max-width: 800px){
+    .header{
+        align-items: center;
+        display: flex;
+        flex-direction:column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
